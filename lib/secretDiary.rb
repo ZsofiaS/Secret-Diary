@@ -1,6 +1,6 @@
 class SecretDiary
   
-  attr_reader :open, :entries
+  attr_reader :entries
   
   def initialize
     @entries = []
@@ -16,12 +16,12 @@ class SecretDiary
   end
   
   def add_entry(new_entry)
-    raise "Cannot add: secret diary is locked" if @open == false
+    raise "Cannot add: secret diary is locked" unless @open
     @entries << new_entry
   end
   
   def get_entries
-    raise "Cannot show entries: secret diary is locked" if @open == false
+    raise "Cannot show entries: secret diary is locked" unless @open
     p @entries
   end
   
