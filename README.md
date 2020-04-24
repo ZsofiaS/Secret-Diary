@@ -1,6 +1,7 @@
-### Secret Diary
+## Secret Diary
 
-Task: Test-drive the secret diary example
+This code was written as practice during my second week at Makers. here's a link to the original exercise: [Secret Diary](https://github.com/makersacademy/skills-workshops/blob/master/practicals/object_oriented_design/encapsulation.md) 
+### Task: Test-drive the secret diary example
 
 SecretDiary
   - lock
